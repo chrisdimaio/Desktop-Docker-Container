@@ -15,7 +15,6 @@ RUN x11vnc -storepasswd 1234 ~/.vnc/passwd
 RUN apt-get install telnet -y
 RUN apt-get install less -y
 RUN apt-get install procps -y
-RUN apt-get install openbox -y
 
 EXPOSE 5900
 
